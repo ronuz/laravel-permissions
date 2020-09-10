@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/swipe-view/{playlist}/{id}', 'FooController@foo');
+Route::get('/get-og-tags/{swipe-view}/{playlist}/{id}', 'FooController@foo');

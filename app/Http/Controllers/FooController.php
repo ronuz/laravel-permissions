@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class FooController extends Controller
 {
-    public function foo($playlist, $id)
+    public function foo($view, $playlist, $id)
     {
-        dd($playlist, $id);
+        dd($view, $playlist, $id);
     }
 }
